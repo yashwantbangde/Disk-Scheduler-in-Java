@@ -17,6 +17,7 @@ When the user clicks on the "Run" button, the ActionListener attached to it gets
 3. It receives an array of head movements from the algorithm method.
 4. It updates the output text area with the head movements and total head movement for the selected algorithm.
 5. It plots the head movements on a graphical representation of the disk using the plotMovement() method.
+
 The implementation of each disk scheduling algorithm is defined in separate methods such as FCFS(), SSTF(), SCAN(), etc. Each algorithm method takes the head position and disk requests as inputs, and returns an array of head movements based on that algorithm. These methods use different algorithms to determine the order in which disk requests are served.
 
 The plotMovement() method takes the array of head movements and the number of tracks as inputs and generates a graphical representation of the disk that shows the head movements. It uses the Java AWT and Swing classes to create a BufferedImage object, which is then displayed in a separate JFrame.
