@@ -9,6 +9,7 @@ The application provides the following disk scheduling algorithms to choose from
 4. C-SCAN
 5. LOOK
 6. C-LOOK
+
 When the user clicks on the "Run" button, the ActionListener attached to it gets triggered, which performs the following steps:
 
 1. It reads the user inputs from the GUI components such as head position, number of tracks, disk requests, and selected algorithm.
